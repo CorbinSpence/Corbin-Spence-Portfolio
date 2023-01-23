@@ -4,57 +4,68 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="./assets/stylesheet.css">
+        <link rel="stylesheet" href="./assets/css/stylesheet.css">
         <title>Corbin's Portfolio</title>
     </head>
     <header>
-        <span>cspence</span>
-        <span>
+        <span class="subtitle-block title">cspence</span>
+        <span class="nav-links">
             <a href="#">About Me</a>
             <a href="#">Work</a>
             <a href="#">Contact Me</a>
             <a href="#">Resume</a>
         </span>
-
     </header>
     <body>
         <!-- This is the "About me" portion -->
-        <aside>
+        <article class="flex-container">
+            <aside>
             <h1>About Me</h1>
-        </aside>
-        <section>
-            <p>This is where a basic intro paragraph will be.</p>
-        </section>
+            </aside>
+            <section>
+                <p>This is where a basic intro paragraph will be.</p>
+            </section>
+        </article>
         
         <!-- This is the "Work" portion -->
-        <aside>
-            <h1>Work</h1>
-        </aside>
-        <main>
-            <div>
-                <h2>Surf Report</h2>
-                <h3>Mern Stack</h3>
+        <main class="flex-container">
+            <aside>
+                <h1>Work</h1>
+            </aside>
+            <div class="work-block">
+                <div class="subtitle-block">
+                    <h2>Surf Report</h2>
+                    <h4>Mern Stack</h4>
+                </div>
             </div>
             <table>
                 <tbody>
                     <tr>
-                        <td>
-                            <h2>LED Wall</h2>
-                            <h3>Node/IoT</h3>
+                        <td class="work-block">
+                            <div class="subtitle-block">
+                                <h2>LED Wall</h2>
+                                <h4>Node/IoT</h4>
+                            </div>
                         </td>
-                        <td>
-                            <h2>Calculator</h2>
-                            <h3>React/JavaScript/CSS</h3>
+                        <td class="work-block">
+                            <div class="subtitle-block">
+                                <h2>Calculator</h2>
+                                <h4>React/JavaScript/CSS</h4>
+                            </div>
                         </td>
                     </tr>
                     <tr>
-                        <td>
-                            <h2>Pastel Puzzels</h2>
-                            <h3>Mern Stack</h3>
+                        <td class="work-block">
+                            <div class="subtitle-block">
+                                <h2>Pastel Puzzels</h2>
+                                <h4>Mern Stack</h4>
+                            </div>
                         </td>
-                        <td>
-                            <h2>Run Buddy</h2>
-                            <h3>HTML/CSS</h3>
+                        <td class="work-block">
+                            <div class="subtitle-block">
+                                <h2>Run Buddy</h2>
+                                <h4>HTML/CSS</h4>
+                            </div>
                         </td>
                     </tr>
                 </tbody>
@@ -62,7 +73,7 @@
         </main>
 
         <!-- This is the "Contact info" portion -->
-        <footer>
+        <footer class="flex-container">
             <aside>
                 <h1>Contact Info</h1>
             </aside>

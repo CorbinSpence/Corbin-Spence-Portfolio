@@ -1,0 +1,66 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.subtitle-block{
+    background-color: turquoise;
+    color: #2a2a31;
+}
+.title{
+    font-size: 25px;
+    font-weight: bold;
+}
+.nav-links{
+    float: right;
+}
+.work-block{
+    border: 5px solid turquoise ;
+}
+.surf-report{
+
+}
+.led-wall{
+
+}
+.calculator{
+
+}
+.pastel-puzzels{
+
+}
+.run-buddy{
+
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+}
+header{
+    background-color: #2a2a31;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    
+}
+aside{
+    width: 100px;
+    margin-right: 100px;
+    padding-right: 10px;
+    border-right: 4px solid navy;
+    text-align: right;
+    color: navy;
+}
+article{
+    width:100%;
+    margin-top: 10px;
+}
+main{
+    width:100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+footer{
+    width:100%;
+}
+footer a{
+    margin-right: 20px;
+}
