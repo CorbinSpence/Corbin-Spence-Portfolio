@@ -1,6 +1,7 @@
 :root{
     --gray_black: #2a2a31;
     --full_width: 100%;
+    --work_block_margins: 15px;
 }
 html{
     background-color: #eeeeee;
@@ -35,10 +36,16 @@ html{
     height: 200px;
     background-color: rgba(129, 129, 129, 0.904);
 }
+.work-block:hover{
+    box-shadow: 0 0 10px black;
+    transition-duration: 1s;
+}
 .main-work-block{
     padding-top: 150px;
     padding-bottom: 150px;
     height: auto;
+    margin-left: var(--work_block_margins);
+    margin-right: var(--work_block_margins);
 }
 .surf-report{
 
@@ -106,4 +113,7 @@ footer div a{
 }
 .float-left{
     float: left;
+}
+table{
+    border-spacing: var(--work_block_margins);
 }
