@@ -2,6 +2,7 @@
     --gray_black: #2a2a31;
     --full_width: 100%;
     --work_block_margins: 15px;
+    --nav_padding: 17px;
 }
 html{
     background-color: #eeeeee;
@@ -14,14 +15,17 @@ html{
     color: var(--gray_black);
 }
 .title{
-    font-size: 25px;
+    font-size: 50px;
     font-weight: bold;
     padding-left: 3%;
+    padding-right: 1%;
     color: var(--gray_black);
 }
 .nav-links{
     float: right;
     width: 60%;
+    padding-top: var(--nav_padding);
+    padding-bottom: var(--nav_padding);
 }
 .nav-links a{
     text-decoration: none;
@@ -34,10 +38,11 @@ html{
 .work-block{
     border: 5px solid turquoise ;
     height: 200px;
-    background-color: rgba(129, 129, 129, 0.904);
+    background-color: #cccccc;
 }
 .work-block:hover{
     box-shadow: 0 0 10px black;
+    background-position: 20% 20%;
     transition-duration: 1s;
 }
 .main-work-block{
@@ -47,20 +52,26 @@ html{
     margin-left: var(--work_block_margins);
     margin-right: var(--work_block_margins);
 }
-.surf-report{
-
+.Horiseon{
+    background-image: url('../images/Horiseon_Screenshot.PNG');
+    background-repeat: no-repeat;
+    background-position: 5% 5%;
 }
 .led-wall{
-
+    background-image: url('../images/Stock_Image.jpg');
+    background-repeat: no-repeat;
 }
 .calculator{
-
+    background-image: url('../images/Stock_Image.jpg');
+    background-repeat: no-repeat;
 }
 .pastel-puzzels{
-
+    background-image: url('../images/Stock_Image.jpg');
+    background-repeat: no-repeat;
 }
-.run-buddy{
-
+.ShapeUp{
+    background-image: url('../images/ShapeUp_Screenshot.PNG');
+    background-repeat: no-repeat;
 }
 .flex-container{
     display: flex;
@@ -80,15 +91,21 @@ header{
 }
 aside{
     width: 8%;
+    min-width: 150px;
     margin-right: 5%;
     padding-right: 2%;
     border-right: 4px solid navy;
     text-align: right;
     color: navy;
+    font-size: x-large;
 }
 article{
     width:var(--full_width);
     margin-top: 10px;
+}
+article section{
+    margin-left: var(--work_block_margins);
+    margin-right: var(--work_block_margins);
 }
 main{
     width:var(--full_width);
@@ -116,4 +133,20 @@ footer div a{
 }
 table{
     border-spacing: var(--work_block_margins);
+}
+@media screen and (max-width: 725px) {
+    header{
+        width: 700px;
+    }
+    
+}
+@media screen and (max-width: 1350px) {
+    article,
+    main,
+    footer{
+        width: 1350px;
+    }
+    footer div a{
+        margin-left: 90px;
+    }
 }
