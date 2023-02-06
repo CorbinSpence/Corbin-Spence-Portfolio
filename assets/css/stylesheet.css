@@ -128,10 +128,10 @@ main{
     margin-top: var(--section_margins);
     margin-bottom: var(--section_margins);
 }
-#Resume{
-    margin-top: var(--work_block_margins);
+.resume{
+    margin-top: var(--section_margins);
 }
-#Resume img{
+.resume img{
     margin-left:8%;
 }
 footer{
