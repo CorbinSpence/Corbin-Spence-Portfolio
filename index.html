@@ -8,80 +8,107 @@
         <title>Corbin's Portfolio</title>
     </head>
     <header>
-        <span class="subtitle-block title">cspence</span>
-        <span class="nav-links">
-            <a href="#">About Me</a>
-            <a href="#">Work</a>
-            <a href="#">Contact Me</a>
+        <span class="title">Corbin Spence</span>
+        <div class="nav-links">
+            <a href="#About Me">About Me</a>
+            <a href="#Work">Work</a>
+            <a href="#Contact Info">Contact Me</a>
             <a href="#">Resume</a>
-        </span>
+        </div>
     </header>
     <body>
+        <img src="./assets/images/Opening_Image.jpg" alt="Opening image" class="opener">
+
         <!-- This is the "About me" portion -->
-        <article class="flex-container">
+        <article id="About Me" class="flex-container">
             <aside>
             <h1>About Me</h1>
             </aside>
             <section>
+                <img src="./assets/images/Profile_Picture.jpg" alt="profile picture">
                 <p>This is where a basic intro paragraph will be.</p>
             </section>
         </article>
         
-        <!-- This is the "Work" portion -->
-        <main class="flex-container">
+        <!-- This is the flex container for "Work" portion -->
+        <main id="Work" class="flex-container">
             <aside>
                 <h1>Work</h1>
             </aside>
-            <div class="work-block">
-                <div class="subtitle-block">
-                    <h2>Surf Report</h2>
-                    <h4>Mern Stack</h4>
+            <!-- This is the grid box for "Work" details -->
+            <div class="grid-container">
+                <!-- Main work display block -->
+                <a href="https://corbinspence.github.io/Horiseon-Main-Page/">
+                <div class="main-work-block Horiseon">
+                    <div class="subtitle-block float-left">
+                        <h2>Horiseon</h2>
+                        <h4>HTML/CSS</h4>
+                    </div>
                 </div>
+                </a>
+                <!-- Secondary work display blocks -->
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <a href="https://corbinspence.github.io/ShapeUp_Website/">
+                                    <div class="work-block ShapeUp">
+                                        <div class="subtitle-block float-left">
+                                            <h2>Shape Up</h2>
+                                            <h4>HTML/CSS</h4>
+                                        </div>
+                                    </div>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <div class="work-block placeholder">
+                                        <div class="subtitle-block float-left">
+                                            <h2>TBD</h2>
+                                            <h4>TBD</h4>
+                                        </div>
+                                    </div>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="#">
+                                    <div class="work-block placeholder">
+                                        <div class="subtitle-block float-left">
+                                            <h2>TBD</h2>
+                                            <h4>TBD</h4>
+                                        </div>
+                                    </div>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <div class="work-block placeholder">
+                                        <div class="subtitle-block float-left">
+                                        <h2>TBD</h2>
+                                        <h4>TBD</h4>
+                                        </div>
+                                    </div>
+                                </a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
-            <table>
-                <tbody>
-                    <tr>
-                        <td class="work-block">
-                            <div class="subtitle-block">
-                                <h2>LED Wall</h2>
-                                <h4>Node/IoT</h4>
-                            </div>
-                        </td>
-                        <td class="work-block">
-                            <div class="subtitle-block">
-                                <h2>Calculator</h2>
-                                <h4>React/JavaScript/CSS</h4>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="work-block">
-                            <div class="subtitle-block">
-                                <h2>Pastel Puzzels</h2>
-                                <h4>Mern Stack</h4>
-                            </div>
-                        </td>
-                        <td class="work-block">
-                            <div class="subtitle-block">
-                                <h2>Run Buddy</h2>
-                                <h4>HTML/CSS</h4>
-                            </div>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
         </main>
 
         <!-- This is the "Contact info" portion -->
-        <footer class="flex-container">
+        <footer id="Contact Info" class="flex-container">
             <aside>
                 <h1>Contact Info</h1>
             </aside>
-                <a href="#">555.555.555</a>
-                <a href="#">cspence@website.com</a>
-                <a href="#">Github</a>
-                <a href="#">Pages</a>
-                <a href="#">Spotify</a>
+            <div>
+                <a href="#">404.433.0268</a>
+                <a href="corbinspence16@gmail.com">corbinspence16@gmail.com</a>
+                <a href="https://github.com/CorbinSpence">Github</a>
+                <a href="https://www.linkedin.com/in/corbin-spence-0aa1751b0/">LinkedIn</a>
+            </div>
         </footer>
     </body>
 </html>
