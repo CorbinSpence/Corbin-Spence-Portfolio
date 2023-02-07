@@ -22,7 +22,7 @@ This includes:
 
 ## ScreenShot
 
-![Portfolio]("./assets/images/Portfolio_Screenshot.PNG")
+![Portfolio](./assets/images/Portfolio_Screenshot.PNG)
 
 # Citations
 
