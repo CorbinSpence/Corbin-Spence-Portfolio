@@ -20,6 +20,10 @@ This includes:
 
     Corbin Spence
 
+## ScreenShot
+
+![Portfolio]("./assets/images/Portfolio_Screenshot.PNG")
+
 # Citations
 
 Stock_image.jpg by Pixabay, [https://www.pexels.com/](https://www.pexels.com/)
