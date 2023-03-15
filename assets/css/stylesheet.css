@@ -92,6 +92,10 @@ header{
     background-image: url('../images/ShapeUp_Screenshot.PNG');
     background-repeat: no-repeat;
 }
+.FoodBeerSearch{
+    background-image: url('../images/FoodWillBeerUsApart_screenshot.jpg');
+    background-repeat: no-repeat;
+}
 
 .flex-container{
     display: flex;
