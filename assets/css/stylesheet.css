@@ -79,8 +79,8 @@ header{
     background-position: 20% 20%;
     transition-duration: 1s;
 }
-.Horiseon{
-    background-image: url('../images/Horiseon_Screenshot.PNG');
+.Dashboard{
+    background-image: url('../images/Dashboard.jpg');
     background-repeat: no-repeat;
     background-position: 1% 3%;
 }
