@@ -111,6 +111,11 @@ header{
     background-repeat: no-repeat;
     background-position: 40% 30%;
 }
+.jotAThought{
+    background-image: url('../images/Jot_A_Thought.jpg');
+    background-repeat: no-repeat;
+    background-position: 40% 30%;
+}
 
 .flex-container{
     display: flex;
